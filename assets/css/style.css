@@ -1,0 +1,49 @@
+/* teal = #4EAAA4
+    dark gray = #666666
+    light gray = #EAEAEA
+*/
+/* body {} */
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border-bottom: 2px solid #eaeaea;
+}
+
+header h1 {
+  background-color: #4eaaa4;
+  color: #fff;
+  float: left;
+  margin: 0;
+  margin-left: 15%;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  margin-right: 15%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+header li {
+  float: right;
+}
+
+header a {
+  display: block;
+  color: #666666;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.about-me {
+  clear: both;
+}
