@@ -9,6 +9,8 @@ Main content border color: #dddddd
 */
 
 html {
+  position: relative;
+  min-height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -23,6 +25,9 @@ header {
   position: relative;
   top: -10px;
   height: 58px;
+  /* width: 100%;
+  left: 0;
+  right: 0; */
 }
 
 p {
@@ -71,6 +76,10 @@ footer {
   margin-top: -50px;
   text-align: center;
   padding-bottom: 10px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
 }
 
 .background {
