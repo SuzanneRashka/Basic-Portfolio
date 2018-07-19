@@ -22,6 +22,7 @@ header {
   background-color: #fff;
   position: relative;
   top: -10px;
+  height: 58px;
 }
 
 p {
@@ -58,8 +59,8 @@ header li {
 header a {
   color: #777777;
   display: inline-block;
-  text-align: center;
   padding: 20px;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -70,7 +71,7 @@ footer {
   height: 50px;
   margin-top: -50px;
   text-align: center;
-  vertical-align: bottom;
+  padding-bottom: 10px;
 }
 
 .about-me {
@@ -88,7 +89,7 @@ footer {
 }
 
 .background {
-  background-image: url("../images/full-bloom.png");
+  background-image: url("../images/circles-light.png");
 }
 
 .self {
