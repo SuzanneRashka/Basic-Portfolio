@@ -67,18 +67,31 @@ header a {
 footer {
   background-color: #666666;
   border-top: 5px solid #4eaaa4;
-  color: #dddddd;
   height: 50px;
   margin-top: -50px;
   text-align: center;
   padding-bottom: 10px;
 }
 
+.background {
+  background-image: url("../images/circles-light.png");
+}
+
+.copyright {
+  color: #dddddd;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 20px 20px 15px 0px;
+}
+
 .about-me {
   background-color: #fff;
   border: 1px solid #dddddd;
   clear: both;
-  color: #777777;
   margin: 10px 10% 150px;
   max-width: 960px;
   padding: 20px;
@@ -88,13 +101,11 @@ footer {
   color: #4eaaa4;
 }
 
-.background {
-  background-image: url("../images/circles-light.png");
-}
-
-.self {
-  width: 200px;
-  height: 200px;
-  float: left;
-  margin: 20px 20px 15px 0px;
+.contact {
+  background-color: #fff;
+  margin: 10px 10% 150px;
+  border: 1px solid #dddddd;
+  clear: both;
+  max-width: 960px;
+  padding: 20px;
 }
