@@ -15,7 +15,7 @@ html {
   padding: 0;
 }
 
-h1 {
+h1 h2 h3 {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -35,6 +35,15 @@ p {
   color: #777777;
   padding-top: 10px;
   line-height: 2;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 header h1 {
@@ -126,9 +135,9 @@ textarea {
 
 .contact {
   background-color: #fff;
-  margin: 10px 10% 150px;
   border: 1px solid #dddddd;
   clear: both;
+  margin: 10px 10% 150px;
   max-width: 960px;
   padding: 20px;
 }
@@ -138,6 +147,7 @@ textarea {
 }
 
 .container {
+  position: relative;
   border-radius: 5px;
   background-color: #eeeeee;
   padding: 20px;
@@ -152,4 +162,41 @@ textarea {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.portfolio {
+  background-color: #fff;
+  border: 1px solid #dddddd;
+  clear: both;
+  margin: 10px 10% 150px;
+  max-width: 960px !important;
+  padding: 20px;
+  float: left;
+}
+
+.portfolio h1 {
+  color: #4eaaa4;
+}
+
+.card {
+  position: relative;
+  float: left;
+  width: 250px;
+  height: 200px;
+  margin: 30px 10px;
+}
+
+.clear {
+  clear: right;
+}
+
+.title {
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  background-color: teal;
+  width: 100%;
+  /* width: 91%; */
+  bottom: 20px;
 }
